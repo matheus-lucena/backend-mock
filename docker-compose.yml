@@ -3,7 +3,7 @@ services:
     build:
       dockerfile: ./docker/backend-mock.dockerfile
       context: .
-    image: helciopenha/backend-mock
+    image: sjc.vultrcr.com/workshopton/meu-servico:latest
     container_name: backend-mock
     volumes:
       - .:/var/www
