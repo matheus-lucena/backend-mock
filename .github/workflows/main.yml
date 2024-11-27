@@ -23,5 +23,5 @@ jobs:
 
       - name: Build and push image
         run: |
-          docker compose build
-          docker compose push
+          docker compose build -t sjc.vultrcr.com/workshopton/meu-servico:latest
+          docker compose push sjc.vultrcr.com/workshopton/meu-servico:latest
